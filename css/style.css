@@ -487,3 +487,9 @@ h2.sec::before {
   background: #0f2f67;
 }
 
+@media (pointer: coarse) {
+  .print-btn {
+    display: none !important;
+  }
+}
+

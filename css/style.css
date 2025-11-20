@@ -220,6 +220,10 @@ h2.sec::before {
 
 /* дополнительный комфортный адаптив для телефонов */
 @media (max-width: 600px) {
+  .print-btn {
+    display: none !important;
+  }
+
   body {
     font-size: 14px;
     background: #fff;
